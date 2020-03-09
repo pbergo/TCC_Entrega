@@ -27,7 +27,7 @@ O diagrama a seguir apresenta o fluxo da informação e como foram obtidos os re
 
 ## Diretórios
 
-[Diagramas] (https://github.com/pbergo/TCC_Entrega/tree/master/Diagramas) Contém os desenhos da arqitetura utilizada.
+[Diagramas](#https://github.com/pbergo/TCC_Entrega/tree/master/Diagramas) Contém os desenhos da arqitetura utilizada.
 
 [FontesDados] (https://github.com/pbergo/TCC_Entrega/tree/master/Fontes_de_Dados) Contém os arquivos fonte originais e extraídos para ingestão.
 
