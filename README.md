@@ -7,11 +7,17 @@ Trabalho de Conclusão de Curso apresentado ao Curso de Especialização em Ciê
 ## Table of Contents
 
 -[Introdução](#introdução)
+
 -[Diretórios](#diretórios)
+
 -[Fontes de Dados](#fontes-de-dados)
+
 -[Programas Utilizados](#programas-utilizados)
+
 -[Arquitetura](#arquitetura)
+
 -[Configurações realizadas](#configurações-realizadas)
+
 
 ## Introdução
 
