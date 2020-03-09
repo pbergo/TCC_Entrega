@@ -1,0 +1,24 @@
+INSERT INTO tcc_pbergo.fato_classe_gastos
+SELECT frota.pk_frota,
+       frota.vlr_gasto_unit,
+       lim.mdn  as vlr_mediana,
+       (frota.vlr_gasto_unit - lim.mdn) as vlr_dist,
+       ((frota.vlr_gasto_unit - lim.mdn) / frota.vlr_gasto_unit)    as perc_dist,
+       IF(frota.vlr_gasto_unit<lim.li OR frota.vlr_gasto_unit>lim.ls,'OUTLIER',
+            IF(frota.vlr_gasto_unit>=lim.li AND frota.vlr_gasto_unit<=lim.`3q`,'NORMAL',
+            'ATENÇÃO')
+        )   AS classe_vl_unit,
+       frota.qtd_utilizada,
+       lim_km.mdn  as km_mediana,
+       (frota.qtd_utilizada - lim_km.mdn) as km_dist,
+       ((frota.qtd_utilizada - lim_km.mdn) / frota.qtd_utilizada)    as km_perc_dist,
+       IF(frota.qtd_utilizada<lim_km.li OR frota.qtd_utilizada>lim_km.ls,'OUTLIER',
+            IF(frota.qtd_utilizada>=lim_km.li AND frota.qtd_utilizada<=lim_km.`3q`,'NORMAL',
+            'ATENÇÃO')
+        )   AS classe_km
+FROM tcc_pbergo.fato_frota frota
+LEFT JOIN tcc_pbergo.limits_ano lim
+ON (frota.num_anoexercicio = lim.ano 
+    AND frota.keytipogasto = lim.keytipogasto)
+LEFT JOIN tcc_pbergo.limits_km lim_km
+ON (frota.keytipogasto = lim_km.keytipogasto);

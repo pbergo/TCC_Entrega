@@ -1,0 +1,12 @@
+USE tcc_pbergo;
+drop table dim_orgao;
+drop table dim_origemgasto;
+drop table dim_pecasservicos;
+drop table dim_pib;
+drop table dim_produto;
+drop table dim_tipodeslocamento;
+drop table dim_tipogasto;
+drop table dim_veiculo;
+drop table fato_empenho;
+drop table fato_frota;
+drop table fato_precos;

@@ -1,0 +1,14 @@
+USE tcc_pbergo;
+CREATE TABLE IF NOT EXISTS tcc_pbergo.fato_classe_gastos
+    (pk_frota STRING,
+    vlr_gasto_unit DOUBLE,
+    vlr_mediana DOUBLE,
+    vlr_dist DOUBLE,
+    perc_dist DOUBLE, 
+    classe_vl_unit STRING,
+    km_rodado DOUBLE,
+    km_mediana DOUBLE,
+    km_dist DOUBLE,
+    km_perc_dist DOUBLE, 
+    classe_km STRING ) 
+STORED AS PARQUET;

@@ -1,0 +1,1 @@
+beeline -u jdbc:hive2://127.0.0.1:10000 -n cloudera -p cloudera -e "!run ./apaga_dw.hql"

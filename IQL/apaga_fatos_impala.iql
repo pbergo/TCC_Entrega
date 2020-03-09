@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS tcc_pbergo.fato_classe_gastos;
+DROP TABLE IF EXISTS tcc_pbergo.fato_classe_km;
+DROP TABLE IF EXISTS tcc_pbergo.fato_mun_per_gasto;
+DROP TABLE IF EXISTS tcc_pbergo.fato_mun_per;
+DROP TABLE IF EXISTS tcc_pbergo.fato_municipio;
+DROP TABLE IF EXISTS tcc_pbergo.fato_veiculo;

@@ -1,0 +1,1 @@
+cp -u /media/sf_D_DRIVE/PBergoWork/TCC/HQL/* .

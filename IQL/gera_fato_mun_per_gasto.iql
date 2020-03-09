@@ -1,0 +1,27 @@
+INSERT INTO TABLE tcc_pbergo.fato_mun_per_gasto
+SELECT 
+row_number() over(ORDER BY frota.keymunicipio, frota.keydata, frota.keytipogasto) AS pk_municipio,
+frota.keydata                                   AS keydata, 
+frota.keymunicipio                              AS keymunicipio, 
+mun.nom_municipio                               AS nom_municipio,
+frota.keytipogasto                              AS keytipogasto,
+COUNT(*)                                        AS NrAbast,
+COUNT(DISTINCT keyveiculo)                      AS NrVeiculos,
+Sum(frota.qtd_utilizada)                        AS KmTotal,
+appx_median(frota.vlr_gasto_unit)               AS VlMediana, 
+avg(frota.vlr_gasto_unit)                       AS VlMedio,
+stddev(frota.vlr_gasto_unit)                    AS DesvioPadrao,
+variance(frota.vlr_gasto_unit)                  AS Variancia,
+max(frota.vlr_gasto_unit)                       AS VlMax,
+min(frota.vlr_gasto_unit)                       AS VlMin,
+appx_median(frota.qtd_utilizada)                AS KmMediana, 
+avg(frota.qtd_utilizada)                        AS KmMedio,
+stddev(frota.qtd_utilizada)                     AS KmDesvioPadrao,
+variance(frota.qtd_utilizada)                   AS KmVariancia,
+max(frota.qtd_utilizada)                        AS KmMax,
+min(frota.qtd_utilizada)                        AS KmMin
+FROM tcc_pbergo.fato_frota frota
+LEFT JOIN tcc_pbergo.dim_municipio mun
+ON (mun.keymunicipio = frota.keymunicipio)
+GROUP BY frota.keydata, frota.keymunicipio, mun.nom_municipio, frota.keytipogasto
+ORDER BY NrAbast DESC, frota.keydata DESC;

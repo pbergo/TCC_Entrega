@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheOnDisc"/>
+</config>
+<config key="model">
+<entry key="tableName" type="xstring" value="ods_precos"/>
+<entry key="targetFolder" type="xstring" value="/tmp/upload/precos"/>
+<entry key="dropTableIfExists" type="xboolean" value="true"/>
+<entry key="valueDelimiter" type="xstring" value="\t"/>
+<config key="partitionColumns">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="typeMap">
+<entry key="PRODUTO" type="xstring" value="STRING"/>
+<entry key="PREÇO MÉDIO REVENDA" type="xstring" value="DOUBLE"/>
+<entry key="COEF DE VARIAÇÃO REVENDA" type="xstring" value="DOUBLE"/>
+<entry key="COEF DE VARIAÇÃO DISTRIBUIÇÃO" type="xstring" value="DOUBLE"/>
+<entry key="DESVIO PADRÃO DISTRIBUIÇÃO" type="xstring" value="DOUBLE"/>
+<entry key="PREÇO MÁXIMO REVENDA" type="xstring" value="DOUBLE"/>
+<entry key="ESTADO" type="xstring" value="STRING"/>
+<entry key="PREÇO MÍNIMO DISTRIBUIÇÃO" type="xstring" value="DOUBLE"/>
+<entry key="PREÇO MÉDIO DISTRIBUIÇÃO" type="xstring" value="DOUBLE"/>
+<entry key="MUNICÍPIO" type="xstring" value="STRING"/>
+<entry key="UNIDADE DE MEDIDA" type="xstring" value="STRING"/>
+<entry key="MÊS" type="xstring" value="STRING"/>
+<entry key="NÚMERO DE POSTOS PESQUISADOS" type="xstring" value="INT"/>
+<entry key="PREÇO MÍNIMO REVENDA" type="xstring" value="DOUBLE"/>
+<entry key="REGIÃO" type="xstring" value="STRING"/>
+<entry key="PREÇO MÁXIMO DISTRIBUIÇÃO" type="xstring" value="DOUBLE"/>
+<entry key="DESVIO PADRÃO REVENDA" type="xstring" value="DOUBLE"/>
+<entry key="MARGEM MÉDIA REVENDA" type="xstring" value="DOUBLE"/>
+</config>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="Cria tabela HIVE%%00013%%00010"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="1207"/>
+<entry key="y-coordinate" type="xint" value="219"/>
+<entry key="width" type="xint" value="106"/>
+<entry key="height" type="xint" value="30"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.bigdata.hive.node.loader.HiveLoaderNodeFactory"/>
+<entry key="node-name" type="xstring" value="Hive Loader (legacy)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Hive Connector"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.bigdata.hive"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="4.0.0.v201906190740"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Big Data Connectors"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.bigdata.connectors.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.0.0.v201908140840"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Hive Loader (legacy)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObject"/>
+<entry key="port_object_summary" type="xstring" value="No. of columns: 18 DB: hive2"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="0e82dba7-d239-44b2-9dd4-be3c5c69c92b"/>
+</config>
+</config>

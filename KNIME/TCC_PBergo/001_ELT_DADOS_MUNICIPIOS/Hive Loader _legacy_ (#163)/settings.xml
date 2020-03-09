@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheOnDisc"/>
+</config>
+<config key="model">
+<entry key="tableName" type="xstring" value="ods_munpib"/>
+<entry key="targetFolder" type="xstring" value="/tmp/upload/munpib"/>
+<entry key="dropTableIfExists" type="xboolean" value="true"/>
+<entry key="valueDelimiter" type="xstring" value="\t"/>
+<config key="partitionColumns">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="typeMap">
+<entry key="Sigla da Unidade da Federação" type="xstring" value="STRING"/>
+<entry key="Código da Mesorregião" type="xstring" value="INT"/>
+<entry key="Valor adicionado bruto da Administração, defesa, educação e saúde públicas e seguridade social&#10;(R$ 1.000)" type="xstring" value="DOUBLE"/>
+<entry key="Ano" type="xstring" value="INT"/>
+<entry key="Código da Unidade da Federação" type="xstring" value="INT"/>
+<entry key="Impostos, líquidos de subsídios, sobre produtos, a preços correntes&#10;(R$ 1.000)" type="xstring" value="DOUBLE"/>
+<entry key="Tipologia Rural-Urbana" type="xstring" value="STRING"/>
+<entry key="Município da Região Geográfica Imediata" type="xstring" value="STRING"/>
+<entry key="Semiárido" type="xstring" value="STRING"/>
+<entry key="Nome da Região Geográfica Imediata" type="xstring" value="STRING"/>
+<entry key="Amazônia Legal" type="xstring" value="STRING"/>
+<entry key="Tipo Concentração Urbana" type="xstring" value="STRING"/>
+<entry key="Produto Interno Bruto, a preços correntes&#10;(R$ 1.000)" type="xstring" value="DOUBLE"/>
+<entry key="Nome da Microrregião" type="xstring" value="STRING"/>
+<entry key="Nome da Região Geográfica Intermediária" type="xstring" value="STRING"/>
+<entry key="Código da Grande Região" type="xstring" value="INT"/>
+<entry key="Região Metropolitana" type="xstring" value="STRING"/>
+<entry key="Atividade com maior valor adicionado bruto" type="xstring" value="STRING"/>
+<entry key="Código Concentração Urbana" type="xstring" value="INT"/>
+<entry key="Valor adicionado bruto total, a preços correntes&#10;(R$ 1.000)" type="xstring" value="DOUBLE"/>
+<entry key="Município da Região Geográfica Intermediária" type="xstring" value="STRING"/>
+<entry key="População&#10;(Nº de habitantes)" type="xstring" value="INT"/>
+<entry key="Nome Arranjo Populacional" type="xstring" value="STRING"/>
+<entry key="Nome da Unidade da Federação" type="xstring" value="STRING"/>
+<entry key="Valor adicionado bruto da Indústria, a preços correntes&#10;(R$ 1.000)" type="xstring" value="DOUBLE"/>
+<entry key="Código da Microrregião" type="xstring" value="INT"/>
+<entry key="Nome da Mesorregião" type="xstring" value="STRING"/>
+<entry key="Valor adicionado bruto dos Serviços, a preços correntes - exclusive Administração, defesa, educação e saúde públicas e seguridade social&#10;(R$ 1.000)" type="xstring" value="DOUBLE"/>
+<entry key="Produto Interno Bruto per capita&#10;(R$ 1,00)" type="xstring" value="DOUBLE"/>
+<entry key="Código da Região Geográfica Imediata" type="xstring" value="INT"/>
+<entry key="Código da Região Geográfica Intermediária" type="xstring" value="INT"/>
+<entry key="Código da Região Rural" type="xstring" value="INT"/>
+<entry key="Hierarquia Urbana" type="xstring" value="STRING"/>
+<entry key="Valor adicionado bruto da Agropecuária, a preços correntes&#10;(R$ 1.000)" type="xstring" value="DOUBLE"/>
+<entry key="Nome da Grande Região" type="xstring" value="STRING"/>
+<entry key="Cidade-Região de São Paulo" type="xstring" value="STRING"/>
+<entry key="Hierarquia Urbana (principais categorias)" type="xstring" value="STRING"/>
+<entry key="Código Arranjo Populacional" type="xstring" value="INT"/>
+<entry key="Nome Concentração Urbana" type="xstring" value="STRING"/>
+<entry key="Nome da Região Rural" type="xstring" value="STRING"/>
+<entry key="Tipo da Região Rural" type="xstring" value="STRING"/>
+<entry key="Atividade com terceiro maior valor adicionado bruto" type="xstring" value="STRING"/>
+<entry key="Código do Município" type="xstring" value="INT"/>
+<entry key="Nome do Município" type="xstring" value="STRING"/>
+<entry key="Atividade com segundo maior valor adicionado bruto" type="xstring" value="STRING"/>
+</config>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="Cria tabela HIVE"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="1207"/>
+<entry key="y-coordinate" type="xint" value="219"/>
+<entry key="width" type="xint" value="106"/>
+<entry key="height" type="xint" value="15"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.bigdata.hive.node.loader.HiveLoaderNodeFactory"/>
+<entry key="node-name" type="xstring" value="Hive Loader (legacy)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Hive Connector"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.bigdata.hive"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="4.0.0.v201906190740"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Big Data Connectors"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.bigdata.connectors.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.0.0.v201908140840"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Hive Loader (legacy)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObject"/>
+<entry key="port_object_summary" type="xstring" value="No. of columns: 43 DB: hive2"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="67169beb-ecd6-4d1c-96d6-18e51fa4b9d7"/>
+</config>
+</config>

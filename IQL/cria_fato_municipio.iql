@@ -1,0 +1,23 @@
+USE tcc_pbergo;
+CREATE TABLE tcc_pbergo.fato_municipio
+(
+    pk_municipio BIGINT,
+    keymunicipio STRING,
+    nom_municipio STRING,
+    KmTotal DOUBLE,
+    NrAbast DOUBLE, 
+    NrVeiculos DOUBLE,
+    VlMediana DOUBLE, 
+    VlMedio DOUBLE,
+    DesvioPadrao DOUBLE,
+    Variancia DOUBLE,
+    VlMax DOUBLE,
+    VlMin DOUBLE,
+    KmMediana DOUBLE, 
+    KmMedio DOUBLE,
+    KmDesvioPadrao DOUBLE,
+    KmVariancia DOUBLE,
+    KmMax DOUBLE,
+    KmMin DOUBLE
+)
+STORED AS PARQUET;

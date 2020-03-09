@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="driver" type="xstring" value="org.apache.hive.jdbc.HiveDriver"/>
+<entry key="database" type="xstring" value="jdbc:hive2://127.0.0.1:10000/tcc_pbergo_ods"/>
+<entry key="user" type="xstring" value="[Workflows edited with 3.4.1, will not work in older versions]"/>
+<entry key="userName" type="xstring" value="cloudera"/>
+<entry key="passwordEncrypted" type="xpassword" value="01A87C3241B42542EA757F704E709E9DAC"/>
+<entry key="password" type="xstring" isnull="true" value=""/>
+<entry key="timezone" type="xstring" value="current"/>
+<entry key="validateConnection" type="xboolean" value="true"/>
+<entry key="retrieveMetadataInConfigure" type="xboolean" value="false"/>
+<entry key="allowSpacesInColumnNames" type="xboolean" value="true"/>
+<entry key="rowIdsStartWithZero" type="xboolean" value="true"/>
+<entry key="databaseIdentifier" type="xstring" value="hive2"/>
+<entry key="kerberos" type="xboolean" value="false"/>
+<entry key="knimeVersion" type="xstring" value="4.0.2"/>
+<config key="default-connection">
+<entry key="hostname" type="xstring" value="127.0.0.1"/>
+<entry key="port" type="xint" value="10000"/>
+<entry key="databaseName" type="xstring" value="tcc_pbergo_ods"/>
+</config>
+<config key="parameter">
+<entry key="parameter" type="xstring" value=""/>
+</config>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="Cloudera%%00013%%00010Hive"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="428"/>
+<entry key="y-coordinate" type="xint" value="520"/>
+<entry key="width" type="xint" value="106"/>
+<entry key="height" type="xint" value="30"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Your database timeout (15 s) is set to a rather low value for Hive. If you experience timeouts increase the value in the preference page."/>
+</config>
+<entry key="factory" type="xstring" value="org.knime.bigdata.hive.node.connector.HiveConnectorNodeFactory"/>
+<entry key="node-name" type="xstring" value="Hive Connector (legacy)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Hive Connector"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.bigdata.hive"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="4.0.0.v201906190740"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Big Data Connectors"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.bigdata.connectors.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.0.0.v201908140840"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Hive Connector (legacy)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.database.DatabaseConnectionPortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.database.DatabaseConnectionPortObject"/>
+<entry key="port_object_summary" type="xstring" value="DB: hive2 URL: jdbc:hive2://127.0.0.1:10000/tcc_pbergo_ods"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="3788b391-e4e9-492f-98c6-6d6a764b1451"/>
+</config>
+</config>
