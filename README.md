@@ -27,21 +27,21 @@ O diagrama a seguir apresenta o fluxo da informação e como foram obtidos os re
 
 ## Diretórios
 
-[Diagramas](#https://github.com/pbergo/TCC_Entrega/tree/master/Diagramas) Contém os desenhos da arqitetura utilizada.
+[Diagramas](https://github.com/pbergo/TCC_Entrega/tree/master/Diagramas) Contém os desenhos da arqitetura utilizada.
 
-[FontesDados] (https://github.com/pbergo/TCC_Entrega/tree/master/Fontes_de_Dados) Contém os arquivos fonte originais e extraídos para ingestão.
+[FontesDados](https://github.com/pbergo/TCC_Entrega/tree/master/Fontes_de_Dados) Contém os arquivos fonte originais e extraídos para ingestão.
 
-[HQL] (https://github.com/pbergo/TCC_Entrega/tree/master/HQL) Contém uma série de programas HiveQL para tratamento de dados e criaçãod as bases Hive.
+[HQL](https://github.com/pbergo/TCC_Entrega/tree/master/HQL) Contém uma série de programas HiveQL para tratamento de dados e criaçãod as bases Hive.
 
-[IQL] (https://github.com/pbergo/TCC_Entrega/tree/master/IQL) Contém uma série de programas Impala QL para tratamento de dados e criação das bases Impala.
+[IQL](https://github.com/pbergo/TCC_Entrega/tree/master/IQL) Contém uma série de programas Impala QL para tratamento de dados e criação das bases Impala.
 
-[Knime] (https://github.com/pbergo/TCC_Entrega/tree/master/KNIME) Contém o Workspace do Knime, que faz a ingestão dos dados fontes para dentro do Cloudera Hive.
+[Knime](https://github.com/pbergo/TCC_Entrega/tree/master/KNIME) Contém o Workspace do Knime, que faz a ingestão dos dados fontes para dentro do Cloudera Hive.
 
-[Qlik] (https://github.com/pbergo/TCC_Entrega/tree/master/Qlik) Contém os programas de análises dos resultados após tratamento.
+[Qlik](https://github.com/pbergo/TCC_Entrega/tree/master/Qlik) Contém os programas de análises dos resultados após tratamento.
 
-[R] (https://github.com/pbergo/TCC_Entrega/tree/master/R) Contém os scripts utilizados para exploração, tratamento e análises dos dados.
+[R](https://github.com/pbergo/TCC_Entrega/tree/master/R) Contém os scripts utilizados para exploração, tratamento e análises dos dados.
 
-[Video] (https://github.com/pbergo/TCC_Entrega/tree/master/Video): Contém o video com a apresentação dos resultados do trabalho.
+[Video](https://github.com/pbergo/TCC_Entrega/tree/master/Video): Contém o video com a apresentação dos resultados do trabalho.
 
 
 ## Fontes de Dados
