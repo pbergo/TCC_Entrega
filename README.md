@@ -41,6 +41,8 @@ O diagrama a seguir apresenta o fluxo da informação e como foram obtidos os re
 
 [R](https://github.com/pbergo/TCC_Entrega/tree/master/R): Contém os scripts utilizados para exploração, tratamento e análises dos dados.
 
+[Drivers](https://github.com/pbergo/TCC_Entrega/tree/master/Drivers): Contém os drivers de conexão ao Cloudera Hive e Impala
+
 [Video](https://github.com/pbergo/TCC_Entrega/tree/master/Video): Contém o video com a apresentação dos resultados do trabalho.
 
 [Documento](https://github.com/pbergo/TCC_Entrega/tree/master/Documentacao): Contém o documento de entrega do trabalho.
