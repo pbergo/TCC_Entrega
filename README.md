@@ -28,12 +28,21 @@ O diagrama a seguir apresenta o fluxo da informação e como foram obtidos os re
 ## Diretórios
 
 Diagramas: Contém os desenhos da arqitetura utilizada.
+
 FontesDados: Contém os arquivos fonte originais e extraídos para ingestão.
+
 HQL: Contém uma série de programas HiveQL para tratamento de dados e criaçãod as bases Hive.
+
 IQL: Contém uma série de programas Impala QL para tratamento de dados e criação das bases Impala.
+
 Knime: Contém o Workspace do Knime, que faz a ingestão dos dados fontes para dentro do Cloudera Hive.
+
 Qlik: Contém os programas de análises dos resultados após tratamento.
+
 R: Contém os scripts utilizados para exploração, tratamento e análises dos dados.
+
+Video: Contém o video com a apresentação dos resultados do trabalho.
+
 
 ## Fontes de Dados
 As fontes de dados são:
