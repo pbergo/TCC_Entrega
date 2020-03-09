@@ -76,10 +76,12 @@ A arquitetura para realização dos trabalho é:
 4. Bases de Dados: Hive para ingestão dos dados e Impala para armazenagem dos dados tratados.
 
 ## Configurações realizadas:
-1. Aumentar espaço em disco da Cloudera Quickstart VM: 
+1. Aumentar espaço em disco da Cloudera Quickstart VM:
+
     https://mikaelsitruk.wordpress.com/2012/12/17/increasing-disk-size-on-hadoop-clouderas-vm/
     https://community.cloudera.com/t5/Support-Questions/cloudera-VM-enlarge-the-HDFS-FS-capacity/td-p/629
 
 2. Aumentar Memória da Cloudera Quickstart VM:
+
     De 2Gb para 8Gb
 
