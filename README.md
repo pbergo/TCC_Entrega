@@ -8,7 +8,7 @@ Trabalho de Conclusão de Curso apresentado ao Curso de Especialização em Ciê
 
 -[Introdução](#introdução)
 
--[Diretórios](#diretórios)
+-[Pastas do Projeto](#pastas_do_projeto)
 
 -[Fontes de Dados](#fontes-de-dados)
 
@@ -27,7 +27,7 @@ O diagrama a seguir apresenta o fluxo da informação e como foram obtidos os re
 
 ![Diagrama](https://github.com/pbergo/TCC_Entrega/blob/master/Diagramas/DIAGRAM%20DE%20ELT%20v03.jpg)
 
-## Diretórios
+## Pastas do Projeto
 
 [Diagramas](https://github.com/pbergo/TCC_Entrega/tree/master/Diagramas): Contém os desenhos da arquitetura utilizada.
 
