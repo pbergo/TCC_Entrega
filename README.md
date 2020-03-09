@@ -22,12 +22,14 @@ Trabalho de Conclusão de Curso apresentado ao Curso de Especialização em Ciê
 ## Introdução
 
 Contém os arquivos e instruções para configuração e     execução dos programas para geração e análises realizadas para o trabalho de conclusão do Curso de Especialização em Ciência de Dados e Big Data.
+
 O diagrama a seguir apresenta o fluxo da informação e como foram obtidos os resultados apresentados no trabalho.
-(Diagramas/DIAGRAM DE ELT v03.jpg)
+
+![Diagrama](Diagramas/DIAGRAM DE ELT v03.jpg)
 
 ## Diretórios
 
-[Diagramas](https://github.com/pbergo/TCC_Entrega/tree/master/Diagramas): Contém os desenhos da arqitetura utilizada.
+[Diagramas](https://github.com/pbergo/TCC_Entrega/tree/master/Diagramas): Contém os desenhos da arquitetura utilizada.
 
 [FontesDados](https://github.com/pbergo/TCC_Entrega/tree/master/Fontes_de_Dados): Contém os arquivos fonte originais e extraídos para ingestão.
 
@@ -74,6 +76,8 @@ A arquitetura para realização dos trabalho é:
 2. Linux CentOs: Contém o Cloudera Quickstart executada num VM, com 2 CPU e 8Gb de memória.  
 3. Armazenamento de dados: Os programas, scripts, dados fonte e a máquina VM Cloudera utilizaram HD Externo de 500Gb com NTFS.
 4. Bases de Dados: Hive para ingestão dos dados e Impala para armazenagem dos dados tratados.
+
+
 
 ## Configurações realizadas:
 1. Aumentar espaço em disco da Cloudera Quickstart VM:
