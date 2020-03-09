@@ -52,6 +52,7 @@ Os programas utilizados para esse trabalho são:
 4. Draw.io para desenho do fluxo da informação: https://www.draw.io/
 5. R 3.6: https://cran.r-project.org/bin/windows/base/R-3.6.2-win.exe
 6. R Studio: https://download1.rstudio.org/desktop/windows/RStudio-1.2.5033.exe
+7. Qlik Sense Desktop: https://da3hntz84uekx.cloudfront.net/QlikSenseDesktop/13.51/6/_MSI/Qlik_Sense_Desktop_setup.exe
 
 ## Arquitetura:
 A arquitetura para realização dos trabalho é:
