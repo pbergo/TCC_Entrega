@@ -25,7 +25,7 @@ Contém os arquivos e instruções para configuração e     execução dos prog
 
 O diagrama a seguir apresenta o fluxo da informação e como foram obtidos os resultados apresentados no trabalho.
 
-![Diagrama](Diagramas/DIAGRAM DE ELT v03.jpg)
+![Diagrama](https://github.com/pbergo/TCC_Entrega/blob/master/Diagramas/DIAGRAM%20DE%20ELT%20v03.jpg)
 
 ## Diretórios
 
