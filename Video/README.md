@@ -6,7 +6,7 @@ Trabalho de Conclusão de Curso apresentado ao Curso de Especialização em Ciê
 
 ## Video de Apresentação
 
-Essa pasta contém o vídeo de apresentação do resultado do trabalho que também pode ser visualizado no Youtube(https://www.youtube.com/watch?v=7f9caqQCqr4&t=39s) .
+Essa pasta contém o vídeo de apresentação do resultado do trabalho que também pode ser visualizado no [Youtube](https://www.youtube.com/watch?v=7f9caqQCqr4&t=39s) .
 
 ![Video](https://github.com/pbergo/TCC_Entrega/blob/master/Video/Video_TCC_Entrega.webm)
 
