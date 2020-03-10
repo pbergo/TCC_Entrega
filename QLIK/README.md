@@ -4,7 +4,11 @@ Trabalho de Conclusão de Curso apresentado ao Curso de Especialização em Ciê
 
 ## Pós-graduação Lato Sensu em Ciência de Dados e Big Data
 
-## Video de Apresentação
+## Qlik
 
-Essa pasta contém o vídeo de apresentação do resultado do trabalho que também pode ser visualizado no [Youtube](https://www.youtube.com/watch?v=7f9caqQCqr4&t=39s) .
+Após a instalação do Qlik Sense Desktop, conforme link, é preciso:
+
+1. Arquivos ZIP: Descompactar e gravar os arquivos dessa pasta no diretório %HOMEPATH%\Documents\QLIK\Sense\Extensions.
+2. Arquivo QVF: Copiar para diretório %HOMEPATH%\Documents\QLIK\Sense\Apps
+
 
